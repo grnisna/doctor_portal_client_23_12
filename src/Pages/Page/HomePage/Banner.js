@@ -9,7 +9,7 @@ const Banner = () => {
           <img
             alt="chair"
             src={chair}
-            className="lg:max-w-sm lg:rounded-lg shadow-2xl"
+            className="lg:max-w-lg lg:rounded-lg shadow-2xl"
           />
         </div>
         <div>
