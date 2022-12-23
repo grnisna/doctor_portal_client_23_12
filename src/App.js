@@ -4,7 +4,7 @@ import "./App.css";
 import About from "./Pages/Page/About";
 import Appointment from "./Pages/Page/Appointment";
 import Contacts from "./Pages/Page/Contacts";
-import Home from "./Pages/Page/Home";
+import Home from "./Pages/Page/HomePage/Home";
 import Reviews from "./Pages/Page/Reviews";
 import Navbar from "./Pages/Shared/Navbar";
 
