@@ -1,5 +1,6 @@
 import React from "react";
 import chair from "../../../assets/images/chair.png"
+import FocusButton from "../../Shared/FocusButton";
 
 const Banner = () => {
   return (
@@ -21,7 +22,7 @@ const Banner = () => {
             batas amar pranee bazay basi soner bangla ami tomar valobasi
           </p>
           <div className="lg:text-left text-center">
-          <button className="btn font-bold  border-none text-base-100 bg-gradient-to-r from-secondary to-primary">Get Started</button>
+          <FocusButton>Get Up Man</FocusButton>
           </div>
         </div>
       </div>
