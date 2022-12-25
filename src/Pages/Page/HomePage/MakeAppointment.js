@@ -8,7 +8,7 @@ const MakeAppointment = () => {
     <div className="flex justify-center items-center px-28" style={{
         background:`url(${appointment})`
     }}>
-      <div className="mt-[-100px]">
+      <div className="lg:mt-[-100px]">
         <img className="max-w-lg" src={doctor} alt="" />
       </div>
       <div>

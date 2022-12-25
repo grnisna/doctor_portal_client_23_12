@@ -6,6 +6,7 @@ import Appointment from "./Pages/Page/Appointment";
 import Contacts from "./Pages/Page/Contacts";
 import Home from "./Pages/Page/HomePage/Home";
 import Reviews from "./Pages/Page/Reviews";
+import Footer from "./Pages/Shared/Footer";
 import Navbar from "./Pages/Shared/Navbar";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/Appointment" element={<Appointment/>} ></Route>
         <Route path="/Reviews" element={<Reviews/>} ></Route>
       </Routes>
+      <Footer/>
     </div>
   );
 }
