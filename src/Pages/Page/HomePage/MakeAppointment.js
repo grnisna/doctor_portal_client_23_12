@@ -5,16 +5,16 @@ import FocusButton from "../../Shared/FocusButton";
 
 const MakeAppointment = () => {
   return (
-    <div className="flex justify-center items-center px-28" style={{
+    <div className="lg:flex justify-center items-center " style={{
         background:`url(${appointment})`
     }}>
-      <div className="lg:mt-[-100px]">
+      <div className="lg:mt-[-100px] hidden lg:block">
         <img className="max-w-lg" src={doctor} alt="" />
       </div>
-      <div>
+      <div className="p-5 m-3">
         <h4 className="text-primary font-bold">Appointment</h4>
-        <h2 className="text-white font-bold text-2xl">Make an appointment Today</h2>
-        <p className="text-white">
+        <h2 className="text-white font-bold text-2xl my-4">Make an appointment Today</h2>
+        <p className="text-white mb-4">
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout. The point of
           using Lorem Ipsumis that it has a more-or-less normal distribution of

@@ -22,7 +22,7 @@ const Forms = () => {
           class="input input-bordered input-accent lg:w-full lg:m-2"
         />
         <textarea class="textarea textarea-accent lg:m-2 lg:w-full" placeholder="Type here..."></textarea><br />
-        <input type="submit" className="btn btn-primary" />
+        <input type="submit" className="btn btn-primary lg:m-2 lg:w-full" />
       </form>
       <br />
     </div>

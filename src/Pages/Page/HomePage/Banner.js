@@ -4,7 +4,7 @@ import FocusButton from "../../Shared/FocusButton";
 
 const Banner = () => {
   return (
-    <div className="hero min-h-screen lg:px-20">
+    <div className="hero min-h-screen ">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div>
           <img

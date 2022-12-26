@@ -2,7 +2,7 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import About from "./Pages/Page/About/About";
-import Appointment from "./Pages/Page/Appointment";
+import Appointment from "./Pages/Page/Appointment/Appointment";
 import Contacts from "./Pages/Page/Contacts";
 import Home from "./Pages/Page/HomePage/Home";
 import Reviews from "./Pages/Page/Reviews";
@@ -11,7 +11,7 @@ import Navbar from "./Pages/Shared/Navbar";
 
 function App() {
   return (
-    <div className="App">
+    <div className="max-w-7xl mx-auto lg:px-12">
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
