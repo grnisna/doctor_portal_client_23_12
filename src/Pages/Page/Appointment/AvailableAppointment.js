@@ -1,7 +1,15 @@
 import { format } from "date-fns";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const AvailableAppointment = ({date}) => {
+  const [services, setServices] = useState([]);
+  console.log(services);
+
+  useEffect( ()=>{
+    fetch('services.json')
+    .then(res => res.json())
+    .then(data => setServices(data))
+  } ,[])
   return (
     <div>
       <p>
@@ -11,6 +19,10 @@ const AvailableAppointment = ({date}) => {
           {format(date, "PP")}{" "}
         </span>
       </p>
+
+      <div>
+
+      </div>
     </div>
   );
 };

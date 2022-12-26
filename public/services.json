@@ -1,0 +1,68 @@
+[
+    {
+        "_id" : 1,
+        "name": "Theet Cosmology",
+        "slots":[
+            "8.00Am -  9.00am",
+            "9.00Am -  10.00am",
+            "8.00Am -  9.00am",
+            "8.00Am -  9.00am",
+            "8.00Am -  9.00am"
+        ]
+    },
+    {
+        "_id" : 2,
+        "name": "Theet Cosmology",
+        "slots":[
+            "8.00Am -  9.00am",
+            "9.00Am -  10.00am",
+            "8.00Am -  9.00am",
+            "8.00Am -  9.00am",
+            "8.00Am -  9.00am"
+        ]
+    },
+    {
+        "_id" : 3,
+        "name": "Theet Cosmology",
+        "slots":[
+            "8.00Am -  9.00am",
+            "9.00Am -  10.00am",
+            "8.00Am -  9.00am",
+            "8.00Am -  9.00am",
+            "8.00Am -  9.00am"
+        ]
+    },
+    {
+        "_id" : 4,
+        "name": "Theet Cosmology",
+        "slots":[
+            "8.00Am -  9.00am",
+            "9.00Am -  10.00am",
+            "8.00Am -  9.00am",
+            "8.00Am -  9.00am",
+            "8.00Am -  9.00am"
+        ]
+    },
+    {
+        "_id" : 5,
+        "name": "Theet Cosmology",
+        "slots":[
+            "8.00Am -  9.00am",
+            "9.00Am -  10.00am",
+            "8.00Am -  9.00am",
+            "8.00Am -  9.00am",
+            "8.00Am -  9.00am"
+        ]
+    },
+    {
+        "_id" : 6,
+        "name": "Theet Cosmology",
+        "slots":[
+            "8.00Am -  9.00am",
+            "9.00Am -  10.00am",
+            "8.00Am -  9.00am",
+            "8.00Am -  9.00am",
+            "8.00Am -  9.00am"
+        ]
+    }
+]
